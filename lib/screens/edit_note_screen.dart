@@ -140,7 +140,7 @@ class _EditNoteScreenState extends State<EditNoteScreen> {
           width: 10.0,
         ),
         NavigationButton(
-          button: FlatButton(
+          button: TextButton(
             onPressed: () {
               setState(() {
                 _isTitleEmpty() ? _isTitleEmptyOrNull = true : _isTitleEmptyOrNull = false;

@@ -24,7 +24,7 @@ class _NotesScreenState extends State<NotesScreen> {
   bool isSearchOn = false;
   bool isSelectOn = false;
   String searchText = "";
-  List<int> selectedItemsIds = new List();
+  List<int> selectedItemsIds = [];
 
   @override
   Widget build(BuildContext context) {

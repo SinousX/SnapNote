@@ -107,7 +107,7 @@ class _NewNoteScreenState extends State<NewNoteScreen> {
   Widget _saveButton(bool isTitleEmptyOrNull) {
     return NavigationButton(
       isDisabled: isTitleEmptyOrNull,
-      button: FlatButton(
+      button: TextButton(
         onPressed: isTitleEmptyOrNull
             ? null
             : () {
